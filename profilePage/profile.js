@@ -1,6 +1,6 @@
 
     if(sessionStorage.getItem("user") == null){
-        window.location = "/userapp/signupPage/signup.html";
+        window.location = "signupPage/signup.html";
     }
 
     else{
@@ -89,7 +89,7 @@
         
         var waitText = document.getElementById("logout_text").innerHTML = "Please Wait";
         setTimeout(function(){
-            window.location = "/userapp/signupPage/signup.html";
+            window.location = "signupPage/signup.html";
         },2000)
       }
 
@@ -97,14 +97,14 @@
       // Click on Contact Now
       var contactPage = document.getElementById("contact");
       contactPage.onclick = function(){
-        window.location = "/userapp/contactUs/contact.html";
+        window.location = "contactUs/contact.html";
       }
 
       // Click on Video Player Now
 
       var V_player = document.getElementById("player");
       V_player.onclick = function(){
-        window.location = "/userapp/VideoPlayerHTML5/player.html";
+        window.location = "VideoPlayerHTML5/player.html";
       }
 
     }

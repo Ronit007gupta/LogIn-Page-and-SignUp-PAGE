@@ -301,7 +301,7 @@ lgform.onsubmit = function(){
         if(logEmail == correct_email){
             if(logPass==correct_password){
                 sessionStorage.setItem("user",logEmail);
-                window.open("/userapp/profilePage/page.html");
+                window.open("profilePage/page.html");
             }
         }
     
@@ -313,74 +313,3 @@ lgform.onsubmit = function(){
 }
 
 /*End of Login Form Validation*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
